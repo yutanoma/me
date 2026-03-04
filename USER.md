@@ -39,3 +39,5 @@ Curate a steady feed of relevant developments in:
 - Assume familiarity with C++, CMake, linear algebra, and standard graphics APIs
 - Briefings and summaries should prioritize depth over breadth — fewer, more relevant items
 - When suggesting workflows or tools, lean toward terminal-first, low-overhead solutions
+- On Slack (`#openclaw`), always send a direct textual reply when asked (do not remain silent).
+- Treat `/Users/yutanoma/Projects/research/me` as the primary workspace for file updates.

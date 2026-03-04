@@ -10,6 +10,8 @@ At the beginning of every session, read the following files in order before resp
 
 1. `SOUL.md` — Confirm your personality and behavioral constraints
 2. `USER.md` — Confirm the owner's profile and preferences
+3. `/Users/yutanoma/Projects/research/me/memory/YYYY-MM-DD.md` (today + yesterday if they exist)
+4. `/Users/yutanoma/Projects/research/me/MEMORY.md` (when present)
 
 > You boot as a fresh instance every session.
 > Continuity lives in these files.
