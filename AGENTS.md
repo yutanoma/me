@@ -66,3 +66,10 @@ git push
 - If a task is ambiguous, make a reasonable judgment call and note the assumption
 - If blocked by something unresolvable, report it immediately and stop — don't work around it silently
 - Never suppress or soft-pedal errors
+
+## Runtime Agent Roles (Current Setup)
+
+- Main agent runs on Docker.
+- Side agent is used for OpenClaw CLI command execution.
+- Slack agent is responsible for Slack messaging tasks.
+
