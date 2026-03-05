@@ -30,8 +30,8 @@ Produces a daily briefing saved to `briefings/YYYY-MM-DD.md`, covering research-
 
 Use the Google Calendar MCP tool (or absolute-path `gcalcli` as fallback) to fetch today's events.
 
-Preferred fallback command:
-- `/usr/local/bin/gcalcli agenda` (avoid PATH issues in cron/non-login shells)
+Preferred fallback command (force ET rendering):
+- `TZ=America/New_York /usr/local/bin/gcalcli agenda` (avoid PATH issues in cron/non-login shells; always display in ET)
 List all events in chronological order with time, title, and location/link if present.
 If no MCP tool is available, note "Calendar unavailable" and skip the section.
 
