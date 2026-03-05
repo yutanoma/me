@@ -8,14 +8,15 @@ A Claude Code skill for end-of-day wrap-up and next-day preparation.
 
 ## Description
 
-Produces a short evening briefing saved to `briefings/YYYY-MM-DD-evening.md`, focused on wrapping up the current day and previewing tomorrow.
+Produces a short evening briefing saved to `briefings/YYYY-MM-DD-evening.md`, focused on wrapping up the current day and previewing tomorrow, and posts the same briefing to Slack `#openclaw`.
 
 ## Steps
 
 1. Fetch tomorrow's events from Google Calendar (see Calendar section below)
 2. Check open GitHub Issues — flag anything due tomorrow or overdue
 3. Write the briefing to `briefings/YYYY-MM-DD-evening.md`
-4. Commit the file with message: `briefing: YYYY-MM-DD evening`
+4. Post the briefing content to Slack `#openclaw`
+5. Commit the file with message: `briefing: YYYY-MM-DD evening`
 
 ## Calendar
 
