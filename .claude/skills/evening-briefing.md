@@ -26,7 +26,10 @@ Produces a short evening briefing saved to `briefings/YYYY-MM-DD-evening.md`, fo
 
 ## Calendar
 
-Use the Google Calendar MCP tool (or `gcalcli agenda` if available) to fetch tomorrow's events.
+Use the Google Calendar MCP tool (or absolute-path `gcalcli` as fallback) to fetch tomorrow's events.
+
+Preferred fallback command:
+- `/usr/local/bin/gcalcli agenda` (avoid PATH issues in cron/non-login shells)
 List all events in chronological order with time, title, and location/link if present.
 If no MCP tool is available, note "Calendar unavailable" and skip the section.
 
