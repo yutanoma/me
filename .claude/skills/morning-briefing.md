@@ -8,7 +8,7 @@ A Claude Code skill that aggregates daily information and produces a structured 
 
 ## Description
 
-Produces a daily briefing saved to `briefings/YYYY-MM-DD.md`, covering research-relevant graphics/vision content and AI tooling news, and posts the same briefing to Slack `#openclaw`.
+Produces a daily briefing saved to `briefings/YYYY-MM-DD.md`, covering research-relevant graphics/vision content and AI tooling news, and posts the same briefing to Slack `<#C0AJKTM85T5>`.
 
 ## Steps
 
@@ -17,7 +17,7 @@ Produces a daily briefing saved to `briefings/YYYY-MM-DD.md`, covering research-
 3. Search for and select **5 articles on AI coding and efficiency tools** from Japanese-adjacent outlets
 4. Check open GitHub Issues for due or overdue tasks
 5. Write the briefing to `briefings/YYYY-MM-DD.md`
-6. Post the briefing content to Slack `#openclaw`
+6. Post the briefing content to Slack `<#C0AJKTM85T5>`
 7. Commit the file with message: `briefing: YYYY-MM-DD`
 
 ## Calendar

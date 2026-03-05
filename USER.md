@@ -40,5 +40,5 @@ Curate a steady feed of relevant developments in:
 - Briefings and summaries should prioritize depth over breadth — fewer, more relevant items
 - When suggesting workflows or tools, lean toward terminal-first, low-overhead solutions
 - On Slack (`#openclaw`), always send a direct textual reply when asked (do not remain silent).
-- Morning and evening briefings must also be posted to Slack `#openclaw` (not file-only).
+- Morning briefing must be posted to Slack `<#C0AJKTM85T5>`, and evening briefing to Slack `<#C0AJNSPTAJ1>` (not file-only).
 - Treat `/Users/yutanoma/Projects/research/me` as the primary workspace for file updates.
