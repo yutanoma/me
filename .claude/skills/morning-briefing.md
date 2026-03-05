@@ -1,6 +1,12 @@
 # Skill: Morning Briefing
 
-A Claude Code skill that aggregates daily information and produces a structured briefing. The cron job is set to 7:00am ET (Toronto).
+A Claude Code skill that aggregates daily information and produces a structured briefing.
+
+## Schedule (explicit)
+
+- Intended cron schedule: **daily at 7:00 AM America/Toronto (ET)**
+- Cron expression: `0 7 * * *`
+- Timezone: `America/Toronto`
 
 ## Trigger
 

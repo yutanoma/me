@@ -2,6 +2,12 @@
 
 A Claude Code skill for end-of-day wrap-up and next-day preparation.
 
+## Schedule (explicit)
+
+- Intended cron schedule: **daily at 7:00 PM America/Toronto (ET)**
+- Cron expression: `0 19 * * *`
+- Timezone: `America/Toronto`
+
 ## Trigger
 
 `/evening-briefing`
