@@ -21,10 +21,14 @@ Produces a daily briefing saved to `briefings/YYYY-MM-DD.md`, covering research-
 1. Fetch today's events from Google Calendar (see Calendar section below)
 2. Search for and select **3 articles on 3D graphics and vision** (see sources below)
 3. Search for and select **5 articles on AI coding and efficiency tools** from Japanese-adjacent outlets
-4. Check open GitHub Issues for due or overdue tasks
-5. Write the briefing to `briefings/YYYY-MM-DD.md`
-6. Post the briefing content to Slack `<#C0AJKTM85T5>`
-7. Commit the file with message: `briefing: YYYY-MM-DD`
+4. Before finalizing, deduplicate against previously introduced content (both papers and articles) by checking recent `briefings/*.md`.
+   - Do not re-introduce the same paper/article URL.
+   - Do not re-introduce the same work under a different post if it is clearly the same paper/project.
+   - If a prior item must be referenced for context, mark it explicitly as "Previously introduced" and do not count it toward the 3+5 quota.
+5. Check open GitHub Issues for due or overdue tasks
+6. Write the briefing to `briefings/YYYY-MM-DD.md`
+7. Post the briefing content to Slack `<#C0AJKTM85T5>`
+8. Commit the file with message: `briefing: YYYY-MM-DD`
 
 ## Calendar
 
