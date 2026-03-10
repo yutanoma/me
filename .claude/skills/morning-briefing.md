@@ -19,7 +19,7 @@ Produces a daily briefing saved to `briefings/YYYY-MM-DD.md`, covering research-
 ## Steps
 
 1. Fetch today's events from Google Calendar (see Calendar section below)
-2. Search for and select **3 articles on 3D graphics and vision** (see sources below)
+2. Search for and select **3 articles on 3D graphics and vision** (see sources below). For paper entries, include full author list, ArXiv link, and a project page URL when available.
 3. Search for and select **5 articles on AI coding and efficiency tools** from Japanese-adjacent outlets
 4. Before finalizing, deduplicate against previously introduced content (both papers and articles) by checking recent `briefings/*.md`.
    - Do not re-introduce the same paper/article URL.
@@ -75,9 +75,12 @@ Focus: tools, workflows, and techniques that improve developer productivity — 
 
 ## 3D Graphics & Vision
 
-1. **[Title](URL)**
-   *Source · Author if known*
-   One or two sentences on why it's worth reading.
+1. **[Title](ArXiv or primary URL)**
+   *Source · Authors: Full author list*
+   *Links: ArXiv: <url> | Project page: <url or N/A>*
+   - **What it does:** One-line summary of the work.
+   - **Why it works / what is different:** One-line summary of why it performs well and how it differs from prior work.
+   - **Potential impact:** One-line note on possible impact in other fields.
 
 2. ...
 
