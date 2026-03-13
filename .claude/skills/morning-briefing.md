@@ -29,6 +29,7 @@ Produces a daily briefing saved to `briefings/YYYY-MM-DD.md`, covering research-
 6. Write the briefing to `briefings/YYYY-MM-DD.md`
 7. Post the briefing content to Slack `<#C0AJKTM85T5>`
 8. Commit the file with message: `briefing: YYYY-MM-DD`
+9. Push the commit to the remote immediately after the briefing file is generated and committed
 
 ## Calendar
 

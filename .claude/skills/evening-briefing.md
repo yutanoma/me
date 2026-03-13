@@ -23,6 +23,7 @@ Produces a short evening briefing saved to `briefings/YYYY-MM-DD-evening.md`, fo
 3. Write the briefing to `briefings/YYYY-MM-DD-evening.md`
 4. Post the briefing content to Slack `<#C0AJNSPTAJ1>`
 5. Commit the file with message: `briefing: YYYY-MM-DD evening`
+6. Push the commit to the remote immediately after the briefing file is generated and committed
 
 ## Calendar
 
